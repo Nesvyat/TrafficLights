@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            redColorView.layer.cornerRadius = 45
-            yellowColorView.layer.cornerRadius = 45
-            greenColorView.layer.cornerRadius = 45
+            redColorView.layer.cornerRadius = 44
+            yellowColorView.layer.cornerRadius = 44
+            greenColorView.layer.cornerRadius = 44
            // redColorView.alpha = 0.3
             //yellowColorView.alpha = 0.3
             //greenColorView.alpha = 0.3       и вот это не нужно как я понимаю , я еще плюсом в менюшке поменял на 0.3
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         startButton.backgroundColor = .blue
         startButton.layer.cornerRadius = 20
         
-        redColorView.alpha = lightIsOff //вот тут не понял , откуда это , я смотрел разбор и по памяти сделал, все понятно кроме этого lightOff имею в виду
+        redColorView.alpha = lightIsOff //вот тут не понял , откуда это , я смотрел разбор и не подглядывая  сделал,как ты и говорила, все понятно кроме этого lightOff имею в виду
         yellowColorView.alpha = lightIsOff
         greenColorView.alpha = lightIsOff
         }
